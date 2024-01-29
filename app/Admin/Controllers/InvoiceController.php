@@ -119,7 +119,8 @@ echo "
 
 
         echo '<style>'; 
-        echo '.column-__actions__{display:none}'; 
+        echo '.column-Action+th{display:none}'; 
+        echo '.column-Action+td{display:none}';
         echo '</style>';  
 
         echo '<script type="text/javascript">'; 
